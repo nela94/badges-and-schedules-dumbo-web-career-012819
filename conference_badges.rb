@@ -1,5 +1,5 @@
 
-def batch_badge_creator(attendees, badge_creator)
+def batch_badge_creator(attendees, badge_maker)
   attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  badge_creator = attendees.each "Hello, my name is #{name}."
+  badge_maker = attendees.each "Hello, my name is #{name}."
 end
