@@ -11,7 +11,7 @@ end
 def assign_rooms(attendees)
   welcome =[]
   room_assignments = attendees.each do |name,i|
-    welcome.push("Hello, #{name}! You'll be assigned to room #{i}!")
+    welcome.push("Hello, #{name}! You'll be assigned to room #{i.to_i}!")
   end
   return welcome
 end
