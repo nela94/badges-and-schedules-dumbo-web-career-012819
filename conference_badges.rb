@@ -3,5 +3,5 @@ def badge_maker(name)
 end
 def batch_badge_creator(attendees)
   attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  bages = attendees.each
+  attendees.each {|name| puts badges}
 end
